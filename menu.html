@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="name">LAZVM Coffee Menu</div>
+        <h5>SMELL RICH AND WARM AROMA</h5>
+        <p class="tagline">Crafted Brews & Cozy Vibes</p>
+        
+        
+        <nav>
+            <ul>
+                <li><a href="web.html" >Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html"class="active">Menu</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h2>Popular Drinks</h2>
+            <div class="coffee-items">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Caffe_Latte_at_Pulse_Cafe.jpg/1200px-Caffe_Latte_at_Pulse_Cafe.jpg" alt="1">
+                <div><strong>Latte - ₱120</strong> <br/>A smooth espresso drink mixed with steamed milk and a light layer of foam. </div>
+            </div>
+
+            <div class="coffee-items">
+                <img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRWm9qKkP2EkvSnBuwhWD7T8-oRTUNKZFq13dgEowlcT4Kqymc2bv4b0ZzJXv0aT4wR" alt="2">
+               <div><strong>Cappuccino - ₱110</strong><br/>A bold shot of espresso with steamed milk and thick milk foam on top.</div>
+            </div>
+
+            <div class="coffee-items">
+                <img src="https://spartanspecialtycafe.com/wp-content/uploads/2023/07/Americano.jpg" alt="3">
+                <div><strong>Americano - ₱100</strong><br/>Fresh espresso shots diluted with hot water, giving it a light and smooth taste</div>
+            </div>
+
+            <div class="coffee-items">
+                <img src="https://media.istockphoto.com/id/157675911/photo/cappuccino-topped-with-swirls-of-chocolate-sauce.jpg?s=612x612&w=0&k=20&c=606NMYMjVnTmpSnJI537_IjW3lqfNJaH7Lc9Qg0BXPU=" alt="4">
+                <div><strong>Mocha - ₱130</strong><br/>Rich espresso mixed with chocolate syrup and steamed milk, topped with whipped cream.</div>
+            </div>
+
+            <div class="coffee-items">
+                <img src="data:image/jpeg;base64,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" alt="5">
+                <div><strong>Caramel Macchiato - ₱135</strong><br/>Espresso layered with steamed milk and caramel drizzle — sweet and creamy</div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Pastries</h2>
+            <div class="coffee-items">
+                <img src="https://www.tastingtable.com/img/gallery/7-types-of-pastries-explained/shortcrust-pastry-1697640224.webp" alt="1">
+                <div><strong>Shortcrust - ₱120</strong> <br/>A buttery, tender pastry with a delicate crumb, our shortcrust base is lovingly baked to perfection. Whether cradling sweet fruits or savory fillings, this golden crust adds a rich, melt-in-your-mouth texture to every bite.</div>
+            </div>
+
+            <div class="coffee-items">
+                <img src="https://www.tastingtable.com/img/gallery/7-types-of-pastries-explained/puff-pastry-1697640224.webp" alt="2">
+               <div><strong>Puff - ₱120</strong><br/>A buttery delight made by layering dough and fat through a meticulous folding process. Baked to crisp perfection, each bite offers a delicate crunch followed by a soft, airy center.</div>
+            </div>
+
+            <div class="coffee-items">
+                <img src="https://www.tastingtable.com/img/gallery/7-types-of-pastries-explained/viennoiserie-1697640224.webp" alt="3">
+                <div><strong>Viennoiserie - ₱130</strong><br/>Made from enriched dough, combining flour, eggs, milk, sugar, and premium butter. Through a careful lamination process, the dough is folded into delicate layers that bake into light, flaky, and golden pastries.</div>
+            </div>
+
+            <div class="coffee-items">
+                <img src="https://www.tastingtable.com/img/gallery/7-types-of-pastries-explained/filo-pastry-1697640224.webp" alt="4">
+                <div><strong>Filo - ₱125</strong><br/>Paper-thin, crisp, and delightfully delicate—our filo pastry is baked to a golden, flaky finish that shatters with every bite. Layered by hand and brushed with butter, it creates a light, airy texture that’s perfect for both sweet treats and savory bites.</div>
+            </div>
+
+            <div class="coffee-items">
+                <img src="https://www.tastingtable.com/img/gallery/7-types-of-pastries-explained/flaky-pastry-1697640662.webp" alt="5">
+                <div><strong>Flaky - ₱115</strong><br/>Golden, buttery, and beautifully layered—our flaky pastry delivers a light crunch with a tender bite. Each layer is carefully folded to create a soft, airy texture that melts in your mouth. Perfect for both sweet and savory bakes, it’s comfort food in every delicious, flaky bite.</div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

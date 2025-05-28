@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #fdfaf6;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4e342e;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header .name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+header h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 0.3rem;
+}
+
+header .tagline {
+    font-size: 1rem;
+    font-style: italic;
+    color: #e0c7b7;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #d7ccc8;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto 3rem auto;
+    padding: 1.5rem;
+    background-color: #fffdf9;
+    border-left: 4px solid #d7ccc8;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.container h2 {
+    font-size: 1.8rem;
+    color: #4e342e;
+    margin-bottom: 1rem;
+}
+
+.container p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.coffee-items {
+    background-color: #f8f4f0;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.coffee-items img {
+    width: 120px;
+    height: auto;
+    border-radius: 0.3rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.coffee-items > div {
+    font-size: 1rem;
+    color: #6d4c41;
+    flex: 1;
+}
+
+.coffee-items strong {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #d7ccc8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    header .name {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .coffee-items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .coffee-items img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 0.5rem;
+    }
+}
